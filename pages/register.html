@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Register</title>
+    <meta charset='utf-8'>
+    <meta name="keywords" content="Stack's Classic Cinema, Register, movies">
+    <meta name="description" content="Cinema Webiste">
+    <meta name="author" content="Kieran Stack">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+  </head>
+  <body>
+<!-- Start of Wrapper Div -->
+<div id="wrapper">
+<div id="header">
+  <div class="main-nav">
+       <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="register.html" class="thispage">Register</a></li>
+                <li><a href="aboutuspage.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+  </div>
+</div>
+<div class="bannerthree">
+</div>
+  <h1>Register with Us!</h1>
+  
+<p class="contentstyle">We know what you're thinking, man movies are just too gosh darn expensive today and theirs so many coming all the time how can I possibly afford it? Well looks like we here at Stacks Classic Cinema have done it again! We now have a new membership program which you can sign up for, for free! All you have to do is enter some basic details and you can have access to out cinema at a discounted price. The best part is we don't even need you to pay upfront you can simply book your tickets and bring proof of the booking a booking number to the staff and pay then. There are no strings attached and you are free to delete your account at any time. We don't keep any record of the accounts and you are free to edit them if you need to change any details. Of course feedback is always important we are after all a mom and pop shop in the age of globalisation so by all means feel free to contact our team to improve your experience on the website, you'll find the contact info in the about us section.</p>
+<p class="contentstyle">Of course, we've also been watching plenty of other films such as the new Halloween film for which we have not stopped playing even thought we're finally coming up on Christmas which is a season which we will also be celebrating with incredible films such as The Grinch that green grump who thinks he can steal Christmas or of course the a new take on a classic The Nutcracker, regardless with any luck this Christmas season will be one to remember at  Stack's Classic Cinema.</p>
+
+<h1>Register</h1>
+   <form action="addAccount.php#delaccount" method="post">
+      <fieldset> 
+       <legend><h2>Your Details</h2></legend> 
+       <label for='firstname'>First Name: </label> <br> 
+       <input type='text' name='firstname' id='firstname' size='40' maxlength='40'><br><br>   
+       <label for='surname'>Surname: </label> <br> 
+       <input type='text' name='surname' id='surname' size='40' maxlength='40'><br><br> 
+       <label for='username'>Username: </label> <br> 
+       <input type='text' name='username' id='username' size='40' maxlength='40'><br><br> 
+       <label for='password'>Password: </label> <br> 
+       <input type='text' name='password' id='password' size='40' maxlength='40'><br><br> 
+       <label for='amount'>Amount: </label> <br> 
+       <input type='text' name='amount' id='amount' size='40' maxlength='40'><br><br> 
+        <br>
+     <input name='submit' value="Add Account" type='submit'>
+     <input name='startover' type='reset'>
+    </fieldset>
+  </form>
+  <h1>Delete Your Account</h1>
+   <form action="delete.php#delaccount" method="post">
+      <fieldset> 
+       <legend><h2>Your Account ID</h2></legend> 
+       <label for='custid'>Enter Customer ID: (ID = 16)</label> <br> 
+         <input type='text' name='custid' id='custid' size='40' maxlength='40'><br><br>   
+        <br>
+     <input name='submit' value="Delete Account" type='submit'>
+    </fieldset>
+  </form>
+<!-- Start of Content Div -->             
+<!-- End of Content Div -->                                                                    
+<div style = "clear:left"></div>
+<!-- Start of Footer Div -->
+<div id="footer">
+  <p class="bottomstyle">
+    <a href="#top">Go to top of Page.</a>
+  </p>
+  <p>
+    <a href="sitemap.html">Site Map</a>
+  </p>
+</div>
+<!-- End of Footer Div -->  
+</div>
+<!-- End of Wrapper Div -->
+  </body>
+</html>
